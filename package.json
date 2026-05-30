@@ -1,0 +1,25 @@
+{
+  "name": "coc-bot",
+  "version": "3.0.0",
+  "description": "Clash of Clans Discord Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node --watch index.js",
+    "pm2": "pm2 start ecosystem.config.cjs",
+    "pm2:stop": "pm2 stop coc-bot",
+    "pm2:logs": "pm2 logs coc-bot"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.3",
+    "discord-api-types": "^0.37.119",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "winston": "^3.17.0"
+  }
+}

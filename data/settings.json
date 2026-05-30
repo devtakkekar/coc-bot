@@ -1,0 +1,17 @@
+{
+  "state_games_month": "2026-5",
+  "state_games_notified_start": false,
+  "state_games_notified_end": true,
+  "war": "1502714489907314868",
+  "cwl": "1502714489907314868",
+  "raid": "1502714489907314868",
+  "games": "1502714489907314868",
+  "general": "1502714489907314868",
+  "state_raid_season": "20260529T070000.000Z",
+  "state_raid_end_warned": false,
+  "state_war": "inWar",
+  "state_war_end_warned": false,
+  "state_war_start_warned": false,
+  "state_war_stale_fetch_triggered": true,
+  "admin": "1505115069313323089"
+}

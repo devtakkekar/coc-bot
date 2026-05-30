@@ -1,0 +1,10 @@
+[2026-05-11 16:07:52] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-11 16:07:52] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-11 16:07:52] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token

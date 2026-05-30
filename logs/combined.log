@@ -1,0 +1,163 @@
+[2026-05-11 16:07:50] INFO: [Cache] No disk cache found, starting fresh
+[2026-05-11 16:07:52] INFO: ✅ Logged in as Clash Karo Aish Karo#7263
+[2026-05-11 16:07:52] INFO: 📌 Clan Tag: #2RRP882G2
+[2026-05-11 16:07:52] INFO: 📦 Loaded 29 commands
+[2026-05-11 16:07:52] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-11 16:07:52] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-11 16:07:52] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-11 16:07:52] INFO: [Monitor] Initialising event monitors...
+[2026-05-11 16:07:52] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-11 16:07:52] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-11 16:07:52] INFO: [Cache] CWL not active: Forbidden — war log may be private, or invalid API token
+[2026-05-11 16:07:52] WARN: [War] No war data available
+[2026-05-11 16:07:52] WARN: [Raid] No raid data
+[2026-05-11 16:07:52] INFO: [Monitor] ✅ All monitors running (timer: 5min | API: 6hr | health: 1hr)
+[2026-05-11 16:08:57] INFO: [Cache] Hydrated from disk
+[2026-05-11 16:08:57] INFO: [Cache] Clan: none | War: none | Raids: none
+[2026-05-11 16:08:59] INFO: ✅ Logged in as Clash Karo Aish Karo#7263
+[2026-05-11 16:08:59] INFO: 📌 Clan Tag: #2RRP882G2
+[2026-05-11 16:08:59] INFO: 📦 Loaded 29 commands
+[2026-05-11 16:08:59] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-11 16:08:59] INFO: [Status] Clan refreshed: MEDELLÍN CARTEL | 29/50 | 17 wars
+[2026-05-11 16:08:59] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-11 16:08:59] INFO: [Monitor] Initialising event monitors...
+[2026-05-11 16:08:59] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/currentwar
+[2026-05-11 16:09:00] INFO: [Cache] War refreshed — state: inWar
+[2026-05-11 16:09:00] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/capitalraidseasons?limit=1
+[2026-05-11 16:09:00] INFO: [Cache] Raids refreshed — state: ended
+[2026-05-11 16:09:00] INFO: [War] state=inWar prev=preparation
+[2026-05-11 16:09:00] INFO: [War] 🔔 State changed: preparation → inWar
+[2026-05-11 16:09:01] INFO: [Monitor] ✅ Notified #notifications [war]
+[2026-05-11 16:09:01] INFO: [Raid] state=ended startTime=20260508T070000.000Z prev=20260508T070000.000Z
+[2026-05-11 16:09:01] INFO: [Monitor] ✅ All monitors running (timer: 5min | API: 6hr | health: 1hr)
+[2026-05-11 16:10:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-11 16:10:00] INFO: [War] state=inWar prev=inWar
+[2026-05-11 16:10:00] INFO: [War] Battle — 397min remaining | warned: false
+[2026-05-11 16:10:00] INFO: [Raid] state=ended startTime=20260508T070000.000Z prev=20260508T070000.000Z
+[2026-05-11 16:10:00] INFO: [API] GET https://api.clashofclans.com/v1/players/%2392GCGCPUL
+[2026-05-11 16:10:13] INFO: [API] GET https://api.clashofclans.com/v1/players/%2392GCGCPUL
+[2026-05-11 16:13:08] INFO: [Cache] Hydrated from disk
+[2026-05-11 16:13:08] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: inWar | Raids: ended
+[2026-05-11 16:13:09] INFO: ✅ Logged in as Clash Karo Aish Karo#7263
+[2026-05-11 16:13:09] INFO: 📌 Clan Tag: #2RRP882G2
+[2026-05-11 16:13:09] INFO: 📦 Loaded 29 commands
+[2026-05-11 16:13:09] INFO: [Status] Using cached clan data for status
+[2026-05-11 16:13:09] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-11 16:13:09] INFO: [Monitor] Initialising event monitors...
+[2026-05-11 16:13:09] INFO: [War] state=inWar prev=inWar
+[2026-05-11 16:13:09] INFO: [War] Battle — 394min remaining | warned: false
+[2026-05-11 16:13:09] INFO: [Raid] state=ended startTime=20260508T070000.000Z prev=20260508T070000.000Z
+[2026-05-11 16:13:09] INFO: [Monitor] ✅ All monitors running (timer: 5min | API: 6hr | health: 1hr)
+[2026-05-11 16:14:16] INFO: [API] GET https://api.clashofclans.com/v1/players/%2392GCGCPUL
+[2026-05-11 16:15:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-11 16:15:00] INFO: [War] state=inWar prev=inWar
+[2026-05-11 16:15:00] INFO: [War] Battle — 392min remaining | warned: false
+[2026-05-11 16:15:00] INFO: [Raid] state=ended startTime=20260508T070000.000Z prev=20260508T070000.000Z
+[2026-05-16 13:13:43] INFO: [Env] ✅ All environment variables present
+[2026-05-16 13:13:43] INFO: [Cache] Hydrated from disk
+[2026-05-16 13:13:43] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: inWar | Raids: ended
+[2026-05-16 13:13:43] INFO: 📦 Loaded 32 commands
+[2026-05-16 13:13:44] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-16 13:13:44] INFO: 📌 Clan: #2RRP882G2
+[2026-05-16 13:13:44] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-16 13:13:45] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-16 13:13:45] INFO: [Monitor] Initialising...
+[2026-05-16 13:13:45] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] INFO: [Cache] CWL not active: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] INFO: [War] state=inWar prev=inWar
+[2026-05-16 13:13:45] INFO: [War] Battle — -6626min remaining | warned: false
+[2026-05-16 13:13:45] WARN: [War] ⚠️ War end time passed but state still inWar — forcing fresh fetch
+[2026-05-16 13:13:45] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-16 13:13:45] INFO: [Raid] state=ended startTime=20260508T070000.000Z prev=20260508T070000.000Z
+[2026-05-16 13:13:45] INFO: [Monitor] ✅ Running (timer: 5min | API refresh: 6hr | health: 1hr)
+[2026-05-16 13:15:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-16 13:15:00] INFO: [War] state=inWar prev=inWar
+[2026-05-16 13:15:00] INFO: [War] Battle — -6628min remaining | warned: false
+[2026-05-16 13:15:00] INFO: [Raid] state=ended startTime=20260508T070000.000Z prev=20260508T070000.000Z
+[2026-05-16 13:16:57] INFO: [Env] ✅ All environment variables present
+[2026-05-16 13:16:57] INFO: [Cache] Hydrated from disk
+[2026-05-16 13:16:57] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: inWar | Raids: ended
+[2026-05-16 13:16:57] INFO: 📦 Loaded 32 commands
+[2026-05-16 13:16:58] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-16 13:16:58] INFO: 📌 Clan: #2RRP882G2
+[2026-05-16 13:16:58] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-16 13:16:59] INFO: [Status] Clan refreshed: MEDELLÍN CARTEL | 29/50 | 18 wars
+[2026-05-16 13:16:59] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-16 13:16:59] INFO: [Monitor] Initialising...
+[2026-05-16 13:16:59] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/currentwar
+[2026-05-16 13:16:59] INFO: [Cache] ✅ War refreshed — state: warEnded vs: T I G E R
+[2026-05-16 13:16:59] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/capitalraidseasons?limit=1
+[2026-05-16 13:17:00] INFO: [Cache] ✅ Raids refreshed — state: ongoing
+[2026-05-16 13:17:00] INFO: [War] state=warEnded prev=inWar
+[2026-05-16 13:17:00] INFO: [War] 🔔 State changed: inWar → warEnded
+[2026-05-16 13:17:00] INFO: [Monitor] ✅ Notified #notifications [war]
+[2026-05-16 13:17:00] INFO: [Raid] state=ongoing startTime=20260515T070000.000Z prev=20260508T070000.000Z
+[2026-05-16 13:17:01] INFO: [Monitor] ✅ Notified #notifications [raid]
+[2026-05-16 13:17:01] INFO: [Monitor] ✅ Running (timer: 5min | API refresh: 6hr | health: 1hr)
+[2026-05-16 13:18:28] INFO: [CMD] /stats by .i.n.s.a.n.e.
+[2026-05-16 13:18:51] INFO: [CMD] /cachestatus by .i.n.s.a.n.e.
+[2026-05-16 13:19:23] INFO: [CMD] /channels by .i.n.s.a.n.e.
+[2026-05-16 13:20:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-16 13:20:00] INFO: [War] state=warEnded prev=warEnded
+[2026-05-16 13:20:00] INFO: [Raid] state=ongoing startTime=20260515T070000.000Z prev=20260515T070000.000Z
+[2026-05-16 13:20:00] INFO: [Raid] 2830min remaining | warned: false
+[2026-05-16 13:20:10] INFO: [CMD] /setchannel by .i.n.s.a.n.e.
+[2026-05-16 13:20:10] INFO: [Admin] Channel set: admin → #admin-alert
+[2026-05-16 13:21:24] INFO: [CMD] /raids by .i.n.s.a.n.e.
+[2026-05-16 13:21:36] INFO: [CMD] /raidsrefresh by .i.n.s.a.n.e.
+[2026-05-16 13:21:37] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/capitalraidseasons?limit=1
+[2026-05-16 13:21:50] INFO: [CMD] /stats by .i.n.s.a.n.e.
+[2026-05-30 20:52:03] INFO: [Env] ✅ All environment variables present
+[2026-05-30 20:52:03] INFO: [Cache] Hydrated from disk
+[2026-05-30 20:52:03] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: warEnded | Raids: ongoing
+[2026-05-30 20:52:03] INFO: 📦 Loaded 33 commands
+[2026-05-30 20:52:05] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-30 20:52:05] INFO: 📌 Clan: #2RRP882G2
+[2026-05-30 20:52:05] INFO: [Purge] ✅ Weekly purge scheduler started (Sundays 00:00 UTC)
+[2026-05-30 20:52:05] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-30 20:52:06] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-30 20:52:06] INFO: [Monitor] Initialising...
+[2026-05-30 20:52:06] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] INFO: [Cache] CWL not active: Forbidden — war log may be private, or invalid API token
+[2026-05-30 20:52:06] INFO: [War] state=warEnded prev=warEnded
+[2026-05-30 20:52:06] INFO: [Raid] state=ongoing startTime=20260515T070000.000Z prev=20260515T070000.000Z
+[2026-05-30 20:52:06] INFO: [Raid] -17782min remaining | warned: false
+[2026-05-30 20:52:06] INFO: [Monitor] ✅ Notified #notifications [games]
+[2026-05-30 20:52:06] INFO: [Monitor] ✅ Running (timer: 5min | API refresh: 6hr | health: 1hr)
+[2026-05-30 20:53:53] INFO: [Env] ✅ All environment variables present
+[2026-05-30 20:53:53] INFO: [Cache] Hydrated from disk
+[2026-05-30 20:53:53] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: warEnded | Raids: ongoing
+[2026-05-30 20:53:53] INFO: 📦 Loaded 33 commands
+[2026-05-30 20:53:55] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-30 20:53:55] INFO: 📌 Clan: #2RRP882G2
+[2026-05-30 20:53:55] INFO: [Purge] ✅ Weekly purge scheduler started (Sundays 00:00 UTC)
+[2026-05-30 20:53:55] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-30 20:53:56] INFO: [Status] Clan refreshed: MEDELLÍN CARTEL | 30/50 | 20 wars
+[2026-05-30 20:53:56] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-30 20:53:56] INFO: [Monitor] Initialising...
+[2026-05-30 20:53:56] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/currentwar
+[2026-05-30 20:53:56] INFO: [Cache] ✅ War refreshed — state: inWar vs: Road To Eden
+[2026-05-30 20:53:56] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/capitalraidseasons?limit=1
+[2026-05-30 20:53:56] INFO: [Cache] ✅ Raids refreshed — state: ongoing
+[2026-05-30 20:53:56] INFO: [War] state=inWar prev=warEnded
+[2026-05-30 20:53:56] INFO: [War] 🔔 State changed: warEnded → inWar
+[2026-05-30 20:53:56] INFO: [Monitor] ✅ Notified #notifications [war]
+[2026-05-30 20:53:56] INFO: [Raid] state=ongoing startTime=20260529T070000.000Z prev=20260515T070000.000Z
+[2026-05-30 20:53:58] INFO: [Monitor] ✅ Notified #notifications [raid]
+[2026-05-30 20:53:58] INFO: [Monitor] ✅ Running (timer: 5min | API refresh: 6hr | health: 1hr)
+[2026-05-30 20:54:21] INFO: [CMD] /stats — .i.n.s.a.n.e.
+[2026-05-30 20:55:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-30 20:55:00] INFO: [War] state=inWar prev=inWar
+[2026-05-30 20:55:00] INFO: [War] Battle — 1046min remaining | warned: false
+[2026-05-30 20:55:00] INFO: [Raid] state=ongoing startTime=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-30 20:55:00] INFO: [Raid] 2375min remaining | warned: false
+[2026-05-30 20:55:07] INFO: [CMD] /forcepurgecache — .i.n.s.a.n.e.
+[2026-05-30 20:55:08] INFO: [Admin] Manual cache purge triggered by .i.n.s.a.n.e.
+[2026-05-30 20:55:08] INFO: [Purge] 🧹 Manual purge started...
+[2026-05-30 20:55:08] INFO: [Purge] Cache is fresh — nothing to clear
+[2026-05-30 20:55:08] INFO: [Purge] ✅ Done — 0 item(s) purged
+[2026-05-30 20:55:30] INFO: [CMD] /stats — .i.n.s.a.n.e.
