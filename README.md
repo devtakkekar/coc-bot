@@ -84,6 +84,9 @@ A full-featured Discord bot for your Clash of Clans clan — slash commands for 
 - 🏰 `Capital League: LeagueName`
 - 🎮 `LvX ClanName`
 
+This is the live usage of the bot from my pterodactyl panel,runs pretty good on low resources as well.
+<img width="1567" height="908" alt="panel" src="https://github.com/user-attachments/assets/917ca16a-fd60-4b9e-bd21-75e27917b9b7" />
+
 ---
 
 ## 🚀 Setup Guide
