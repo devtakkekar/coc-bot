@@ -116,6 +116,9 @@ A full-featured Discord bot for your Clash of Clans clan — slash commands for 
 
 ### Step 2: Configure Environment
 
+> [!IMPORTANT]  
+> There is a harcoded clan tag in index.js (line-4) you will have to update it to your clan tag to fetch clan data.
+
 ```bash
 cp .env.example .env
 ```
