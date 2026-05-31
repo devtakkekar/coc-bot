@@ -1,7 +1,8 @@
 import 'dotenv/config';
 
 // ── Hardcoded clan tag ────────────────────────────────────────────────────────
-process.env.CLAN_TAG = '#2RRP882G2';
+import config from './config.js';
+process.env.CLAN_TAG = config.clan.tag;
 
 import { Client, GatewayIntentBits, Collection } from 'discord.js';
 import { commands } from './src/commands/index.js';

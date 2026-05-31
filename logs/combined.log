@@ -161,3 +161,92 @@
 [2026-05-30 20:55:08] INFO: [Purge] Cache is fresh — nothing to clear
 [2026-05-30 20:55:08] INFO: [Purge] ✅ Done — 0 item(s) purged
 [2026-05-30 20:55:30] INFO: [CMD] /stats — .i.n.s.a.n.e.
+[2026-05-31 16:23:14] INFO: [Env] ✅ All required variables present
+[2026-05-31 16:23:14] INFO: [Config] Clan tag: #2RRP882G2
+[2026-05-31 16:23:14] INFO: [Config] Cache refresh: clan=12h, events=6h
+[2026-05-31 16:23:14] INFO: [Config] Polling: timer=5min
+[2026-05-31 16:23:14] INFO: [Config] Status rotate: 10s
+[2026-05-31 16:23:14] INFO: [Cache] Hydrated from disk
+[2026-05-31 16:23:14] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: inWar | Raids: ongoing
+[2026-05-31 16:23:14] INFO: 📦 Loaded 33 commands
+[2026-05-31 16:23:16] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-31 16:23:16] INFO: 📌 Clan: #2RRP882G2
+[2026-05-31 16:23:16] INFO: [Purge] ✅ Scheduler started (0 0 * * 0 UTC)
+[2026-05-31 16:23:16] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-31 16:23:16] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:23:16] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-31 16:23:16] INFO: [Monitor] Initialising...
+[2026-05-31 16:23:16] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:23:16] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:23:16] INFO: [Cache] CWL not active: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:23:16] INFO: [War] state=inWar prev=inWar
+[2026-05-31 16:23:16] INFO: [War] Battle — -122min remaining
+[2026-05-31 16:23:16] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:23:16] INFO: [Raid] 1207min remaining
+[2026-05-31 16:23:16] INFO: [Monitor] ✅ Timer: 5min | API: 6hr
+[2026-05-31 16:25:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-31 16:25:00] INFO: [War] state=inWar prev=inWar
+[2026-05-31 16:25:00] INFO: [War] Battle — -124min remaining
+[2026-05-31 16:25:00] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:25:00] INFO: [Raid] 1205min remaining
+[2026-05-31 16:27:16] INFO: [Env] ✅ All required variables present
+[2026-05-31 16:27:16] INFO: [Config] Clan tag: #2RRP882G2
+[2026-05-31 16:27:16] INFO: [Config] Cache refresh: clan=12h, events=6h
+[2026-05-31 16:27:16] INFO: [Config] Polling: timer=5min
+[2026-05-31 16:27:16] INFO: [Config] Status rotate: 10s
+[2026-05-31 16:27:16] INFO: [Cache] Hydrated from disk
+[2026-05-31 16:27:16] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: inWar | Raids: ongoing
+[2026-05-31 16:27:16] INFO: 📦 Loaded 33 commands
+[2026-05-31 16:27:18] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-31 16:27:18] INFO: 📌 Clan: #2RRP882G2
+[2026-05-31 16:27:18] INFO: [Purge] ✅ Scheduler started (0 0 * * 0 UTC)
+[2026-05-31 16:27:18] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-31 16:27:18] ERROR: [Status] Clan fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:27:18] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-31 16:27:18] INFO: [Monitor] Initialising...
+[2026-05-31 16:27:18] ERROR: [Cache] War fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:27:18] ERROR: [Cache] Raids fetch failed: Forbidden — war log may be private, or invalid API token
+[2026-05-31 16:27:18] INFO: [War] state=inWar prev=inWar
+[2026-05-31 16:27:18] INFO: [War] Battle — -126min remaining
+[2026-05-31 16:27:18] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:27:18] INFO: [Raid] 1203min remaining
+[2026-05-31 16:27:18] INFO: [Monitor] ✅ Timer: 5min | API: 6hr
+[2026-05-31 16:30:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-31 16:30:00] INFO: [War] state=inWar prev=inWar
+[2026-05-31 16:30:00] INFO: [War] Battle — -129min remaining
+[2026-05-31 16:30:00] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:30:00] INFO: [Raid] 1200min remaining
+[2026-05-31 16:35:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-31 16:35:00] INFO: [War] state=inWar prev=inWar
+[2026-05-31 16:35:00] INFO: [War] Battle — -134min remaining
+[2026-05-31 16:35:00] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:35:00] INFO: [Raid] 1195min remaining
+[2026-05-31 16:39:31] INFO: [Env] ✅ All required variables present
+[2026-05-31 16:39:31] INFO: [Config] Clan tag: #2RRP882G2
+[2026-05-31 16:39:31] INFO: [Config] Cache refresh: clan=12h, events=6h
+[2026-05-31 16:39:31] INFO: [Config] Polling: timer=5min
+[2026-05-31 16:39:31] INFO: [Config] Status rotate: 10s
+[2026-05-31 16:39:31] INFO: [Cache] Hydrated from disk
+[2026-05-31 16:39:31] INFO: [Cache] Clan: MEDELLÍN CARTEL | War: inWar | Raids: ongoing
+[2026-05-31 16:39:31] INFO: 📦 Loaded 33 commands
+[2026-05-31 16:39:32] INFO: ✅ Logged in as MEDELLIN CARTEL#7263
+[2026-05-31 16:39:32] INFO: 📌 Clan: #2RRP882G2
+[2026-05-31 16:39:32] INFO: [Purge] ✅ Scheduler started (0 0 * * 0 UTC)
+[2026-05-31 16:39:32] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2
+[2026-05-31 16:39:33] INFO: [Status] Clan refreshed: MEDELLÍN CARTEL | 30/50
+[2026-05-31 16:39:33] INFO: [Status] ✅ Rotating every 10s | Refresh every 12h
+[2026-05-31 16:39:33] INFO: [Monitor] Initialising...
+[2026-05-31 16:39:33] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/currentwar
+[2026-05-31 16:39:33] INFO: [Cache] ✅ War: warEnded vs Road To Eden
+[2026-05-31 16:39:33] INFO: [API] GET https://api.clashofclans.com/v1/clans/%232RRP882G2/capitalraidseasons?limit=1
+[2026-05-31 16:39:34] INFO: [Cache] ✅ Raids: ongoing
+[2026-05-31 16:39:34] INFO: [War] state=warEnded prev=inWar
+[2026-05-31 16:39:34] INFO: [War] 🔔 inWar → warEnded
+[2026-05-31 16:39:34] INFO: [Monitor] ✅ Notified #notifications [war]
+[2026-05-31 16:39:34] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:39:34] INFO: [Raid] 1190min remaining
+[2026-05-31 16:39:34] INFO: [Monitor] ✅ Timer: 5min | API: 6hr
+[2026-05-31 16:40:00] INFO: [Monitor] ⏱ Timer check...
+[2026-05-31 16:40:00] INFO: [War] state=warEnded prev=warEnded
+[2026-05-31 16:40:00] INFO: [Raid] state=ongoing start=20260529T070000.000Z prev=20260529T070000.000Z
+[2026-05-31 16:40:00] INFO: [Raid] 1190min remaining

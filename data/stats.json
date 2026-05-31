@@ -1,9 +1,9 @@
 {
   "startTime": 1778917423519,
   "commandsRun": 10,
-  "apiCalls": 4,
-  "apiErrors": 1,
-  "notificationsSent": 3,
+  "apiCalls": 9,
+  "apiErrors": 3,
+  "notificationsSent": 4,
   "lastPurgeAt": 1780154708098,
   "lastPurgeType": "manual",
   "lastPurgeItems": 0

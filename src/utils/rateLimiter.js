@@ -1,17 +1,10 @@
-/**
- * Per-user rate limiter for slash commands.
- * Prevents users from spamming API-heavy commands.
- */
+import config from '../../config.js';
 
-const buckets = new Map(); // userId → { count, resetAt }
-
-const LIMITS = {
-  default: { max: 5, windowMs: 10_000 },   // 5 per 10s for normal commands
-  heavy:   { max: 2, windowMs: 15_000 },   // 2 per 15s for search/rankings
-};
+const buckets = new Map();
 
 export function checkRateLimit(userId, type = 'default') {
-  const limit = LIMITS[type] || LIMITS.default;
+  const cfg = type === 'heavy' ? config.rateLimit.heavy : config.rateLimit.default;
+  const limit = { max: cfg.maxRequests, windowMs: cfg.windowSeconds * 1000 };
   const now = Date.now();
   const key = `${userId}:${type}`;
   const bucket = buckets.get(key);
@@ -20,17 +13,13 @@ export function checkRateLimit(userId, type = 'default') {
     buckets.set(key, { count: 1, resetAt: now + limit.windowMs });
     return { limited: false };
   }
-
   if (bucket.count >= limit.max) {
-    const retryIn = Math.ceil((bucket.resetAt - now) / 1000);
-    return { limited: true, retryIn };
+    return { limited: true, retryIn: Math.ceil((bucket.resetAt - now) / 1000) };
   }
-
   bucket.count++;
   return { limited: false };
 }
 
-// Clean up old buckets every 5 minutes
 setInterval(() => {
   const now = Date.now();
   for (const [key, bucket] of buckets.entries()) {

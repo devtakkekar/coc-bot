@@ -1,20 +1,21 @@
-/**
- * Per-user cooldown tracker (separate from rate limiter).
- * Used for commands that always hit the API regardless of cache.
- */
-const cooldowns = new Map(); // `userId:command` → lastUsedAt (ms)
+import config from '../../config.js';
 
-/**
- * Check if a user is on cooldown for a specific command.
- * @param {string} userId
- * @param {string} command
- * @param {number} cooldownMs - cooldown duration in ms
- * @returns {{ onCooldown: boolean, remainingMs: number }}
- */
-export function checkCooldown(userId, command, cooldownMs) {
+const cooldowns = new Map();
+
+export function checkCooldown(userId, command, overrideMs = null) {
+  // Allow per-call override, otherwise pull from config
+  let cooldownMs = overrideMs;
+  if (!cooldownMs) {
+    if (command === 'warattacks')       cooldownMs = config.cooldowns.warAttacksMinutes * 60_000;
+    else if (command === 'warrefresh_btn')  cooldownMs = config.cooldowns.warRefreshButtonSeconds * 1000;
+    else if (command === 'raidsrefresh_btn') cooldownMs = config.cooldowns.raidRefreshButtonSeconds * 1000;
+    else cooldownMs = 60_000; // fallback 1 min
+  }
+
   const key = `${userId}:${command}`;
   const last = cooldowns.get(key) || 0;
   const elapsed = Date.now() - last;
+
   if (elapsed < cooldownMs) {
     return { onCooldown: true, remainingMs: cooldownMs - elapsed };
   }
@@ -22,7 +23,6 @@ export function checkCooldown(userId, command, cooldownMs) {
   return { onCooldown: false, remainingMs: 0 };
 }
 
-// Clean up entries older than 24h every hour
 setInterval(() => {
   const cutoff = Date.now() - 24 * 60 * 60 * 1000;
   for (const [key, ts] of cooldowns.entries()) {

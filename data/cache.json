@@ -25,8 +25,8 @@
     },
     "requiredTrophies": 400,
     "warFrequency": "always",
-    "warWinStreak": 0,
-    "warWins": 20,
+    "warWinStreak": 1,
+    "warWins": 21,
     "warTies": 2,
     "warLosses": 25,
     "isWarLogPublic": true,
@@ -58,12 +58,12 @@
             "large": "https://api-assets.clashofclans.com/leaguetiers/326/YCZ7O_3_c8eCBYvX-92qiWeLc6Md6eNJ5A8O-2vUg7I.png"
           }
         },
-        "trophies": 570,
+        "trophies": 583,
         "builderBaseTrophies": 3224,
         "clanRank": 1,
         "previousClanRank": 1,
-        "donations": 900,
-        "donationsReceived": 3159,
+        "donations": 1028,
+        "donationsReceived": 3310,
         "playerHouse": {
           "elements": [
             {
@@ -114,8 +114,8 @@
         "trophies": 556,
         "builderBaseTrophies": 3412,
         "clanRank": 2,
-        "previousClanRank": 0,
-        "donations": 342,
+        "previousClanRank": 2,
+        "donations": 526,
         "donationsReceived": 0,
         "playerHouse": {
           "elements": [
@@ -252,7 +252,7 @@
         "tag": "#92GCGCPUL",
         "name": "INSAnE",
         "role": "member",
-        "townHallLevel": 16,
+        "townHallLevel": 17,
         "expLevel": 200,
         "league": {
           "id": 29000000,
@@ -270,12 +270,12 @@
             "large": "https://api-assets.clashofclans.com/leaguetiers/326/WkqDvnK0CXI-Nc0TNTKG_fSuzRYoLRC54HFOdMCxVTI.png"
           }
         },
-        "trophies": 222,
+        "trophies": 282,
         "builderBaseTrophies": 3045,
         "clanRank": 5,
-        "previousClanRank": 0,
+        "previousClanRank": 5,
         "donations": 55,
-        "donationsReceived": 329,
+        "donationsReceived": 462,
         "playerHouse": {
           "elements": [
             {
@@ -327,7 +327,7 @@
         "builderBaseTrophies": 2466,
         "clanRank": 6,
         "previousClanRank": 6,
-        "donations": 576,
+        "donations": 608,
         "donationsReceived": 844,
         "playerHouse": {
           "elements": [
@@ -488,7 +488,7 @@
         "clanRank": 9,
         "previousClanRank": 9,
         "donations": 0,
-        "donationsReceived": 77,
+        "donationsReceived": 109,
         "playerHouse": {
           "elements": [
             {
@@ -646,7 +646,7 @@
         "builderBaseTrophies": 2433,
         "clanRank": 12,
         "previousClanRank": 12,
-        "donations": 526,
+        "donations": 576,
         "donationsReceived": 286,
         "playerHouse": {
           "elements": [
@@ -751,7 +751,7 @@
         "trophies": 0,
         "builderBaseTrophies": 1368,
         "clanRank": 14,
-        "previousClanRank": 21,
+        "previousClanRank": 14,
         "donations": 0,
         "donationsReceived": 394,
         "playerHouse": {
@@ -804,7 +804,7 @@
         "trophies": 0,
         "builderBaseTrophies": 1572,
         "clanRank": 15,
-        "previousClanRank": 14,
+        "previousClanRank": 15,
         "donations": 0,
         "donationsReceived": 0,
         "playerHouse": {
@@ -857,7 +857,7 @@
         "trophies": 2117,
         "builderBaseTrophies": 2814,
         "clanRank": 16,
-        "previousClanRank": 15,
+        "previousClanRank": 16,
         "donations": 0,
         "donationsReceived": 0,
         "playerHouse": {
@@ -910,7 +910,7 @@
         "trophies": 1839,
         "builderBaseTrophies": 2377,
         "clanRank": 17,
-        "previousClanRank": 16,
+        "previousClanRank": 17,
         "donations": 0,
         "donationsReceived": 0,
         "playerHouse": {
@@ -963,7 +963,7 @@
         "trophies": 971,
         "builderBaseTrophies": 863,
         "clanRank": 18,
-        "previousClanRank": 17,
+        "previousClanRank": 18,
         "donations": 0,
         "donationsReceived": 0,
         "playerHouse": {
@@ -1017,7 +1017,7 @@
         "trophies": 666,
         "builderBaseTrophies": 50,
         "clanRank": 19,
-        "previousClanRank": 18,
+        "previousClanRank": 19,
         "donations": 0,
         "donationsReceived": 0,
         "builderBaseLeague": {
@@ -1051,7 +1051,7 @@
         "trophies": 629,
         "builderBaseTrophies": 80,
         "clanRank": 20,
-        "previousClanRank": 19,
+        "previousClanRank": 20,
         "donations": 0,
         "donationsReceived": 0,
         "builderBaseLeague": {
@@ -1084,7 +1084,7 @@
         "trophies": 162,
         "builderBaseTrophies": 0,
         "clanRank": 21,
-        "previousClanRank": 20,
+        "previousClanRank": 21,
         "donations": 0,
         "donationsReceived": 0,
         "builderBaseLeague": {
@@ -1119,7 +1119,7 @@
         "clanRank": 22,
         "previousClanRank": 22,
         "donations": 0,
-        "donationsReceived": 1102,
+        "donationsReceived": 1180,
         "playerHouse": {
           "elements": [
             {
@@ -1599,9 +1599,9 @@
       "languageCode": "EN"
     }
   },
-  "clanFetchedAt": 1780154636071,
+  "clanFetchedAt": 1780225773108,
   "war": {
-    "state": "inWar",
+    "state": "warEnded",
     "teamSize": 10,
     "attacksPerMember": 2,
     "battleModifier": "none",
@@ -1617,9 +1617,9 @@
         "medium": "https://api-assets.clashofclans.com/badges/200/EKcxjeHjSF1NiLhz53dCy7deNQ66b8ANAZgy_XFazz4.png"
       },
       "clanLevel": 9,
-      "attacks": 12,
-      "stars": 28,
-      "destructionPercentage": 96.9,
+      "attacks": 14,
+      "stars": 29,
+      "destructionPercentage": 99.8,
       "members": [
         {
           "tag": "#2VQRYUJLV",
@@ -1644,7 +1644,15 @@
               "duration": 116
             }
           ],
-          "opponentAttacks": 0
+          "opponentAttacks": 1,
+          "bestOpponentAttack": {
+            "attackerTag": "#GLCC9JUQC",
+            "defenderTag": "#2VQRYUJLV",
+            "stars": 2,
+            "destructionPercentage": 53,
+            "order": 23,
+            "duration": 87
+          }
         },
         {
           "tag": "#9VP008VPU",
@@ -1684,14 +1692,30 @@
               "duration": 107
             }
           ],
-          "opponentAttacks": 0
+          "opponentAttacks": 2,
+          "bestOpponentAttack": {
+            "attackerTag": "#GPVJ022C0",
+            "defenderTag": "#2QVQGG00C",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 25,
+            "duration": 82
+          }
         },
         {
           "tag": "#29GRYLVP0",
           "name": "jeffrey",
           "townhallLevel": 17,
           "mapPosition": 6,
-          "opponentAttacks": 0
+          "opponentAttacks": 1,
+          "bestOpponentAttack": {
+            "attackerTag": "#GYL29YRCQ",
+            "defenderTag": "#29GRYLVP0",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 22,
+            "duration": 83
+          }
         },
         {
           "tag": "#L0CQ0U08",
@@ -1706,9 +1730,25 @@
               "destructionPercentage": 99,
               "order": 4,
               "duration": 180
+            },
+            {
+              "attackerTag": "#L0CQ0U08",
+              "defenderTag": "#YVRRGLCG",
+              "stars": 2,
+              "destructionPercentage": 89,
+              "order": 18,
+              "duration": 172
             }
           ],
-          "opponentAttacks": 0
+          "opponentAttacks": 1,
+          "bestOpponentAttack": {
+            "attackerTag": "#GPVJ022C0",
+            "defenderTag": "#L0CQ0U08",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 24,
+            "duration": 139
+          }
         },
         {
           "tag": "#92GCGCPUL",
@@ -1733,14 +1773,14 @@
               "duration": 127
             }
           ],
-          "opponentAttacks": 1,
+          "opponentAttacks": 2,
           "bestOpponentAttack": {
-            "attackerTag": "#QGL0JRPLU",
+            "attackerTag": "#YVRRGLCG",
             "defenderTag": "#92GCGCPUL",
-            "stars": 0,
-            "destructionPercentage": 39,
-            "order": 5,
-            "duration": 64
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 16,
+            "duration": 95
           }
         },
         {
@@ -1781,7 +1821,15 @@
               "duration": 172
             }
           ],
-          "opponentAttacks": 0
+          "opponentAttacks": 1,
+          "bestOpponentAttack": {
+            "attackerTag": "#YVRRGLCG",
+            "defenderTag": "#J008G98C",
+            "stars": 2,
+            "destructionPercentage": 72,
+            "order": 17,
+            "duration": 90
+          }
         },
         {
           "tag": "#9LGQV00QY",
@@ -1796,9 +1844,25 @@
               "destructionPercentage": 100,
               "order": 7,
               "duration": 103
+            },
+            {
+              "attackerTag": "#9LGQV00QY",
+              "defenderTag": "#VQRCP9LU",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 26,
+              "duration": 153
             }
           ],
-          "opponentAttacks": 0
+          "opponentAttacks": 1,
+          "bestOpponentAttack": {
+            "attackerTag": "#R8ULLUJLV",
+            "defenderTag": "#9LGQV00QY",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 19,
+            "duration": 130
+          }
         },
         {
           "tag": "#9UYVGCYR8",
@@ -1823,7 +1887,15 @@
               "duration": 134
             }
           ],
-          "opponentAttacks": 0
+          "opponentAttacks": 1,
+          "bestOpponentAttack": {
+            "attackerTag": "#GYL29YRCQ",
+            "defenderTag": "#9UYVGCYR8",
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 21,
+            "duration": 137
+          }
         }
       ]
     },
@@ -1836,15 +1908,25 @@
         "medium": "https://api-assets.clashofclans.com/badges/200/UqLMmV0soL8UvmXCv1vuJrmkBXgxjWJJIjxpcLSuelU.png"
       },
       "clanLevel": 15,
-      "attacks": 3,
-      "stars": 4,
-      "destructionPercentage": 21.7,
+      "attacks": 12,
+      "stars": 26,
+      "destructionPercentage": 90.3,
       "members": [
         {
           "tag": "#L2RYPVJCC",
           "name": "masc",
           "townhallLevel": 16,
           "mapPosition": 5,
+          "attacks": [
+            {
+              "attackerTag": "#L2RYPVJCC",
+              "defenderTag": "#2QVQGG00C",
+              "stars": 2,
+              "destructionPercentage": 56,
+              "order": 20,
+              "duration": 82
+            }
+          ],
           "opponentAttacks": 1,
           "bestOpponentAttack": {
             "attackerTag": "#92GCGCPUL",
@@ -1893,6 +1975,24 @@
           "name": "RRB",
           "townhallLevel": 18,
           "mapPosition": 2,
+          "attacks": [
+            {
+              "attackerTag": "#GPVJ022C0",
+              "defenderTag": "#L0CQ0U08",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 24,
+              "duration": 139
+            },
+            {
+              "attackerTag": "#GPVJ022C0",
+              "defenderTag": "#2QVQGG00C",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 25,
+              "duration": 82
+            }
+          ],
           "opponentAttacks": 1,
           "bestOpponentAttack": {
             "attackerTag": "#J008G98C",
@@ -1923,7 +2023,25 @@
           "name": "MATADOR",
           "townhallLevel": 18,
           "mapPosition": 1,
-          "opponentAttacks": 2,
+          "attacks": [
+            {
+              "attackerTag": "#YVRRGLCG",
+              "defenderTag": "#92GCGCPUL",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 16,
+              "duration": 95
+            },
+            {
+              "attackerTag": "#YVRRGLCG",
+              "defenderTag": "#J008G98C",
+              "stars": 2,
+              "destructionPercentage": 72,
+              "order": 17,
+              "duration": 90
+            }
+          ],
+          "opponentAttacks": 3,
           "bestOpponentAttack": {
             "attackerTag": "#J008G98C",
             "defenderTag": "#YVRRGLCG",
@@ -1938,6 +2056,24 @@
           "name": "Royseto",
           "townhallLevel": 17,
           "mapPosition": 3,
+          "attacks": [
+            {
+              "attackerTag": "#GYL29YRCQ",
+              "defenderTag": "#9UYVGCYR8",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 21,
+              "duration": 137
+            },
+            {
+              "attackerTag": "#GYL29YRCQ",
+              "defenderTag": "#29GRYLVP0",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 22,
+              "duration": 83
+            }
+          ],
           "opponentAttacks": 2,
           "bestOpponentAttack": {
             "attackerTag": "#9UYVGCYR8",
@@ -1968,6 +2104,16 @@
           "name": "Rias",
           "townhallLevel": 14,
           "mapPosition": 9,
+          "attacks": [
+            {
+              "attackerTag": "#R8ULLUJLV",
+              "defenderTag": "#9LGQV00QY",
+              "stars": 3,
+              "destructionPercentage": 100,
+              "order": 19,
+              "duration": 130
+            }
+          ],
           "opponentAttacks": 1,
           "bestOpponentAttack": {
             "attackerTag": "#2VQRYUJLV",
@@ -1983,14 +2129,14 @@
           "name": "Jair",
           "townhallLevel": 13,
           "mapPosition": 8,
-          "opponentAttacks": 1,
+          "opponentAttacks": 2,
           "bestOpponentAttack": {
-            "attackerTag": "#2VQRYUJLV",
+            "attackerTag": "#9LGQV00QY",
             "defenderTag": "#VQRCP9LU",
-            "stars": 2,
-            "destructionPercentage": 71,
-            "order": 12,
-            "duration": 100
+            "stars": 3,
+            "destructionPercentage": 100,
+            "order": 26,
+            "duration": 153
           }
         },
         {
@@ -2006,6 +2152,14 @@
               "destructionPercentage": 93,
               "order": 1,
               "duration": 178
+            },
+            {
+              "attackerTag": "#GLCC9JUQC",
+              "defenderTag": "#2VQRYUJLV",
+              "stars": 2,
+              "destructionPercentage": 53,
+              "order": 23,
+              "duration": 87
             }
           ],
           "opponentAttacks": 1,
@@ -2021,15 +2175,15 @@
       ]
     }
   },
-  "warFetchedAt": 1780154636304,
+  "warFetchedAt": 1780225773342,
   "raids": {
     "state": "ongoing",
     "startTime": "20260529T070000.000Z",
     "endTime": "20260601T070000.000Z",
-    "capitalTotalLoot": 13663,
+    "capitalTotalLoot": 31079,
     "raidsCompleted": 0,
-    "totalAttacks": 6,
-    "enemyDistrictsDestroyed": 1,
+    "totalAttacks": 14,
+    "enemyDistrictsDestroyed": 5,
     "offensiveReward": 0,
     "defensiveReward": 0,
     "members": [
@@ -2042,12 +2196,28 @@
         "capitalResourcesLooted": 2305
       },
       {
-        "tag": "#L0CQ0U08",
-        "name": "☆☆☆☆ Soham ☆☆☆☆",
-        "attacks": 5,
+        "tag": "#2VQRYUJLV",
+        "name": "ARYAN792",
+        "attacks": 6,
         "attackLimit": 5,
         "bonusAttackLimit": 1,
-        "capitalResourcesLooted": 11358
+        "capitalResourcesLooted": 13021
+      },
+      {
+        "tag": "#2QVQGG00C",
+        "name": "THAKUR",
+        "attacks": 1,
+        "attackLimit": 5,
+        "bonusAttackLimit": 0,
+        "capitalResourcesLooted": 2505
+      },
+      {
+        "tag": "#L0CQ0U08",
+        "name": "☆☆☆☆ Soham ☆☆☆☆",
+        "attacks": 6,
+        "attackLimit": 5,
+        "bonusAttackLimit": 1,
+        "capitalResourcesLooted": 13248
       }
     ],
     "attackLog": [
@@ -2062,9 +2232,9 @@
             "medium": "https://api-assets.clashofclans.com/badges/200/irawaDrTHSS3DSC-FL8uDfiC-ANXpNb-ROyJ9MgmxIw.png"
           }
         },
-        "attackCount": 6,
+        "attackCount": 14,
         "districtCount": 6,
-        "districtsDestroyed": 1,
+        "districtsDestroyed": 5,
         "districts": [
           {
             "id": 70000000,
@@ -2079,10 +2249,36 @@
             "id": 70000001,
             "name": "Barbarian Camp",
             "districtHallLevel": 3,
-            "destructionPercent": 0,
-            "stars": 0,
-            "attackCount": 0,
-            "totalLooted": 0
+            "destructionPercent": 100,
+            "stars": 3,
+            "attackCount": 3,
+            "totalLooted": 6813,
+            "attacks": [
+              {
+                "attacker": {
+                  "tag": "#2VQRYUJLV",
+                  "name": "ARYAN792"
+                },
+                "destructionPercent": 100,
+                "stars": 3
+              },
+              {
+                "attacker": {
+                  "tag": "#2VQRYUJLV",
+                  "name": "ARYAN792"
+                },
+                "destructionPercent": 76,
+                "stars": 2
+              },
+              {
+                "attacker": {
+                  "tag": "#2QVQGG00C",
+                  "name": "THAKUR"
+                },
+                "destructionPercent": 48,
+                "stars": 1
+              }
+            ]
           },
           {
             "id": 70000002,
@@ -2123,20 +2319,54 @@
             "id": 70000003,
             "name": "Balloon Lagoon",
             "districtHallLevel": 2,
-            "destructionPercent": 0,
-            "stars": 0,
-            "attackCount": 0,
-            "totalLooted": 0
+            "destructionPercent": 100,
+            "stars": 3,
+            "attackCount": 3,
+            "totalLooted": 6105,
+            "attacks": [
+              {
+                "attacker": {
+                  "tag": "#2VQRYUJLV",
+                  "name": "ARYAN792"
+                },
+                "destructionPercent": 100,
+                "stars": 3
+              },
+              {
+                "attacker": {
+                  "tag": "#2VQRYUJLV",
+                  "name": "ARYAN792"
+                },
+                "destructionPercent": 64,
+                "stars": 1
+              },
+              {
+                "attacker": {
+                  "tag": "#L0CQ0U08",
+                  "name": "☆☆☆☆ Soham ☆☆☆☆"
+                },
+                "destructionPercent": 42,
+                "stars": 0
+              }
+            ]
           },
           {
             "id": 70000004,
             "name": "Builder's Workshop",
             "districtHallLevel": 2,
-            "destructionPercent": 73,
-            "stars": 2,
-            "attackCount": 2,
-            "totalLooted": 4740,
+            "destructionPercent": 100,
+            "stars": 3,
+            "attackCount": 3,
+            "totalLooted": 6923,
             "attacks": [
+              {
+                "attacker": {
+                  "tag": "#2VQRYUJLV",
+                  "name": "ARYAN792"
+                },
+                "destructionPercent": 100,
+                "stars": 3
+              },
               {
                 "attacker": {
                   "tag": "#L0CQ0U08",
@@ -2159,11 +2389,19 @@
             "id": 70000005,
             "name": "Dragon Cliffs",
             "districtHallLevel": 1,
-            "destructionPercent": 55,
-            "stars": 1,
-            "attackCount": 1,
-            "totalLooted": 2305,
+            "destructionPercent": 100,
+            "stars": 3,
+            "attackCount": 2,
+            "totalLooted": 4620,
             "attacks": [
+              {
+                "attacker": {
+                  "tag": "#2VQRYUJLV",
+                  "name": "ARYAN792"
+                },
+                "destructionPercent": 100,
+                "stars": 3
+              },
               {
                 "attacker": {
                   "tag": "#9CGC8P299",
@@ -2179,7 +2417,7 @@
     ],
     "defenseLog": []
   },
-  "raidsFetchedAt": 1780154636544,
+  "raidsFetchedAt": 1780225774213,
   "cwl": null,
-  "cwlFetchedAt": 1780154526019
+  "cwlFetchedAt": 1780224796753
 }

@@ -1,10 +1,11 @@
 import { createLogger, format, transports } from 'winston';
 import { existsSync, mkdirSync } from 'fs';
+import config from '../../config.js';
 
 if (!existsSync('./logs')) mkdirSync('./logs', { recursive: true });
 
 const logger = createLogger({
-  level: 'info',
+  level: config.logging.level,
   format: format.combine(
     format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
     format.errors({ stack: true }),
@@ -24,8 +25,8 @@ const logger = createLogger({
         )
       ),
     }),
-    new transports.File({ filename: './logs/error.log', level: 'error' }),
-    new transports.File({ filename: './logs/combined.log' }),
+    new transports.File({ filename: config.logging.files.error,    level: 'error' }),
+    new transports.File({ filename: config.logging.files.combined }),
   ],
 });
 

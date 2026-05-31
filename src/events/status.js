@@ -2,51 +2,50 @@ import { ActivityType } from 'discord.js';
 import * as api from '../utils/cocApi.js';
 import * as cache from '../utils/cache.js';
 import logger from '../utils/logger.js';
+import config from '../../config.js';
 
 let statusIndex = 0;
 
 function buildStatuses() {
   const clan = cache.getClan();
   if (!clan) return [{ name: '⚔️ Clash of Clans', type: ActivityType.Playing }];
-  return [
-    { name: `🏰 ${clan.name}`, type: ActivityType.Playing },
-    { name: `👥 ${clan.members}/50 Players`, type: ActivityType.Watching },
-    { name: `⚔️ ${clan.warWins ?? 0} Wars Won`, type: ActivityType.Competing },
-    { name: `🏆 ${clan.warLeague?.name ?? 'Unranked'}`, type: ActivityType.Watching },
-  ];
+  const all = [
+    config.status.show.clanName    ? { name: `🏰 ${clan.name}`,                          type: ActivityType.Playing }    : null,
+    config.status.show.memberCount ? { name: `👥 ${clan.members}/50 Players`,             type: ActivityType.Watching }   : null,
+    config.status.show.warWins     ? { name: `⚔️ ${clan.warWins ?? 0} Wars Won`,          type: ActivityType.Competing }  : null,
+    config.status.show.warLeague   ? { name: `🏆 ${clan.warLeague?.name ?? 'Unranked'}`,  type: ActivityType.Watching }   : null,
+  ].filter(Boolean);
+  return all.length ? all : [{ name: '⚔️ Clash of Clans', type: ActivityType.Playing }];
 }
 
 async function refreshClan() {
   try {
-    const clan = await api.getClan(process.env.CLAN_TAG);
+    const clan = await api.getClan(config.clan.tag);
     cache.setClan(clan);
-    logger.info(`[Status] Clan refreshed: ${clan.name} | ${clan.members}/50 | ${clan.warWins} wars`);
+    logger.info(`[Status] Clan refreshed: ${clan.name} | ${clan.members}/50`);
   } catch (e) {
     logger.error(`[Status] Clan fetch failed: ${e.message}`);
   }
 }
 
 export async function startStatusRotation(client) {
-  // Only fetch if cache is stale (may have been hydrated from disk)
-  if (cache.isClanStale()) {
-    await refreshClan();
-  } else {
-    logger.info('[Status] Using cached clan data for status');
-  }
+  if (cache.isClanStale()) await refreshClan();
+  else logger.info('[Status] Using cached clan data');
 
-  // Refresh every 12 hours
-  setInterval(refreshClan, 12 * 60 * 60 * 1000);
+  // Refresh every N hours as configured
+  setInterval(refreshClan, config.cache.clanRefreshHours * 60 * 60 * 1000);
 
   // Set immediately
   const statuses = buildStatuses();
   client.user.setPresence({ activities: [{ name: statuses[0].name, type: statuses[0].type }], status: 'online' });
 
-  // Rotate every 10 seconds — zero API calls, just reads from cache
+  // Rotate every N seconds as configured
   setInterval(() => {
     statusIndex++;
-    const s = buildStatuses()[statusIndex % buildStatuses().length];
+    const list = buildStatuses();
+    const s = list[statusIndex % list.length];
     client.user.setPresence({ activities: [{ name: s.name, type: s.type }], status: 'online' });
-  }, 10_000);
+  }, config.status.rotateEverySeconds * 1000);
 
-  logger.info('[Status] ✅ Rotating every 10s | Refresh every 12h');
+  logger.info(`[Status] ✅ Rotating every ${config.status.rotateEverySeconds}s | Refresh every ${config.cache.clanRefreshHours}h`);
 }

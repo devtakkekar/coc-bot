@@ -9,9 +9,9 @@
   "general": "1502714489907314868",
   "state_raid_season": "20260529T070000.000Z",
   "state_raid_end_warned": false,
-  "state_war": "inWar",
+  "state_war": "warEnded",
   "state_war_end_warned": false,
   "state_war_start_warned": false,
-  "state_war_stale_fetch_triggered": true,
+  "state_war_stale_fetch_triggered": false,
   "admin": "1505115069313323089"
 }
