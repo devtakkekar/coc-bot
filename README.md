@@ -69,6 +69,11 @@ A full-featured Discord bot for your Clash of Clans clan — slash commands for 
 | `/stats` | Show bot statistics |
 | `/forcepurgecache` | Manually purge stale cache and old logs |
 
+#### Discord Webhook Integration
+| Command | Description |
+|---|---|
+| `/webhooktest` | Send a test webhook message to all enabled webhook URLs |
+
 ### Automated Notifications
 | Event | Triggers |
 |---|---|
@@ -83,6 +88,10 @@ A full-featured Discord bot for your Clash of Clans clan — slash commands for 
 - ⚔️ `X War Wins`
 - 🏰 `Capital League: LeagueName`
 - 🎮 `LvX ClanName`
+
+### Update(latest v1.1.1)
+- Added config.js for easy configuration
+- Added discord webhook integraton for console logs
 
 This is the live usage of the bot from my pterodactyl panel,runs pretty good on low resources as well.
 <img width="1567" height="908" alt="panel" src="https://github.com/user-attachments/assets/917ca16a-fd60-4b9e-bd21-75e27917b9b7" />
@@ -167,6 +176,15 @@ Use the `/setchannel` command in Discord (requires Administrator permission):
 
 You can also set roles to ping with `/setrole`.
 Channel and role settings are saved to `data/settings.json` and persist across restarts.
+
+Discord Webhook Integration:
+1.Create a logs channel
+2.Channel Settings > Integration > Webhooks > New Webhook
+3.Copy the Webhook URL and paste it in the config.js file
+
+Note-
+- If webhook dosent work or /webhooktest dosent work give necessary permissions to your bot for that specific channels.
+- You can send all logs to one channel or can create multiple log channels for each event.
 
 ---
 
