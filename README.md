@@ -91,7 +91,7 @@ A full-featured Discord bot for your Clash of Clans clan — slash commands for 
 
 ### Update(latest v1.1.1)
 - Added config.js for easy configuration
-- Added discord webhook integraton for console logs
+- Added discord webhook integration for console logs
 
 This is the live usage of the bot from my pterodactyl panel,runs pretty good on low resources as well.
 <img width="1567" height="908" alt="panel" src="https://github.com/user-attachments/assets/917ca16a-fd60-4b9e-bd21-75e27917b9b7" />
