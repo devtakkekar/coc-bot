@@ -128,9 +128,6 @@ This is the live usage of the bot from my pterodactyl panel,runs pretty good on 
 
 ### Step 2: Configure Environment
 
-> [!IMPORTANT]  
-> There is a harcoded clan tag in index.js (line-4) you will have to update it to your clan tag to fetch clan data.
-
 ```bash
 cp .env.example .env
 ```
